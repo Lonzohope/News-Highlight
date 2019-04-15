@@ -1,0 +1,8 @@
+{% macro displayMovieList(news_list) %}
+
+{%for news in news_list%}
+{{news.description}}
+{%endfor%}
+
+
+{% endmacro %}
