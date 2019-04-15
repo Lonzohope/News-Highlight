@@ -3,13 +3,15 @@
 {%for news in news_list%}
 <div class="row">
         <div class="col-md-4">
-                        <li>
-                                        {{news.title}}
-                                        <img src="{{news.urlToImage}}" class="img-responsive" alt="">
-                                        {{news.description}}
-                                        <a href="{{news.url}}">More...</a>
-                                </li>
-        </div>
+<li>
+        {{news.title}}
+        <img src="{{news.urlToImage}}" class="img-responsive" alt="">
+        {{news.description}}
+        <a href="{{news.url}}">More...</a>
+</li>
+
+</div>
+
 </div>
 
 
