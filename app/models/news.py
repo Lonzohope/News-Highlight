@@ -1,17 +1,13 @@
 class News :
 
 
-    def __init__(self,title):
-       self.id= id
-       self.name= name
-       self.author= author
+    def __init__(self,title,description,url,urlToImage,publishAt):
        self.title= title
        self.description= description
        self.url= url
        self.urlToImage= urlToImage
        self.publishAt= publishedAt
-       self.content= content
-        
+     
         
 
 
