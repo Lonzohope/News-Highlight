@@ -1,19 +1,20 @@
 {% import 'macros.html' as macro%}
+
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <!-- <meta charset="utf-8"> -->
+
    
     </head>
      <body>
-         <div class="well">
-                <ul style="height: 10em">
-                        {{macro.displayNewsList(topnews)}}
-                 </ul>
-         </div>
-         
-
-       
-
+        <div class="container-fluid">
+            <div class="well">                      
+                <ul >
+                    {{macro.displayNewsList(topnews)}}  
+                </ul>
+            </div> 
+        </div>                     
     </body>
+    
 </html>
