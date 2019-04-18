@@ -1,9 +1,9 @@
 from flask import render_template
-from app import app
-from .request import get_news,get_sources
+from . import main
+from ..request import get_news,get_sources
 
 
-@app.route('/news/<name>')
+@main.route('/news/<name>')
 def news(name):
 
     '''
@@ -12,7 +12,7 @@ def news(name):
     return render_template('news.html',name=name)
 
 
-@app.route('/')
+@main.route('/')
 def index():
 
     '''
