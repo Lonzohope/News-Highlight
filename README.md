@@ -9,7 +9,7 @@ This is an application created using python and also various API keys that fetch
 ## BDD
 
 | Behavior |  Output Example |
-| :-------------: | :-------------: | :-------------: |
+| :-------------: |-------------: |
 | Go to the navbar and click on sources  | list of different sources|
 | When you click on ABC news | Different articles from ABC news |
 | Click on Aljazeera| Different articles from Aljazeera|
