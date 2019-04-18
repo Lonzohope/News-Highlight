@@ -8,7 +8,7 @@ This is an application created using python and also various API keys that fetch
 
 ## BDD
 
-| Behavior- | Input Example- When it receives: | Output Example- It should return: |
+| Behavior |  Output Example |
 | :-------------: | :-------------: | :-------------: |
 | Go to the navbar and click on sources  | list of different sources|
 | When you click on ABC news | Different articles from ABC news |
