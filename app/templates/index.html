@@ -2,11 +2,15 @@
 {% extends "base.html"%}
 {% block content%}
  
-<div class="jumbotron">hello news</div>
 <div class="container-fluid">
+<div class="row">
+{{macro.displayNewsList(topnews)}} 
 
-        
- {{macro.displayNewsList(topnews)}}  
-        </div>
+</div>
+ 
+ 
+ 
+ 
+</div>
 
     {%endblock%}

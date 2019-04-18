@@ -1,6 +1,10 @@
 {% extends 'bootstrap/base.html'%}
-
+{%block navbar%}
+{%include "navbar.html"%}
+{%endblock%}
 {%block content%}
+{%block styles%}
+   {{ super() }}
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 
 <!-- Font Awesome -->
@@ -18,7 +22,9 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.7/js/mdb.min.js"></script>
-
+<link rel="stylesheet" href="{{url_for('static', filename = 'css/styles.css')}}">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+{%endblock%}
 
 {%endblock%}
  
