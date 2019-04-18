@@ -1,4 +1,4 @@
-# News-Highlights
+# News-Highlight
 ####
 #### By ** Hope Mutheu **
 
